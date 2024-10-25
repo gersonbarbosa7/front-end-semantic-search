@@ -1,8 +1,46 @@
-# React + Vite
+# Magazine Search Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend application for the Magazine Content Management API. It provides a user interface for searching magazine content using **Keyword Search**, **Vector Search**, and **Hybrid Search** options. Built with **React.js**, **Vite**, and **React Query**, it offers an efficient, responsive, and user-friendly experience.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Available Scripts](#available-scripts)
+- [Tech Stack](#tech-stack)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## Features
+
+- **Keyword Search**: Search content by keywords in the title, author, and content.
+- **Vector Search**: Search content based on vector similarity for deeper relevance.
+- **Hybrid Search**: Combines keyword and vector search results to optimize accuracy.
+
+## Prerequisites
+
+- **Node.js** (version 16.x or higher recommended)
+- **npm** (comes with Node.js) or **yarn** for dependency management
+
+## Getting Started
+
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/your-username/magazine-search-frontend.git
+cd magazine-search-frontend
+```
+
+### Step 2: Install Dependencies
+```
+npm install
+```
+# or
+```
+yarn install
+```
+
+### Step 3: Running
+```
+npm run dev
+```
